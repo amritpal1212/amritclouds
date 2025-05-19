@@ -1,0 +1,13 @@
+{
+  "name": "cloudsync",
+  "version": "1.0.0",
+  "description": "CloudSync File Storage Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/styles.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+} 
